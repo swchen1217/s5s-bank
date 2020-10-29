@@ -35,15 +35,20 @@ if ($point < 0)
     numberError();
 
 if ($request['method'] == 'GET' && $cmd == 'point') {
-    $sql = 'SELECT * FROM `points` WHERE 1=1';
-    $rs = $db->prepare($sql);
-    $rs->execute();
-    $ToJson = array();
-    while ($row = $rs->fetch(PDO::FETCH_ASSOC)) {
-        $ToJson[] = $row;
+    if ($id != null) {
+        echo json_encode(getPoint($db, $id));
+        exit;
+    } else {
+        $sql = 'SELECT * FROM `points` WHERE 1=1';
+        $rs = $db->prepare($sql);
+        $rs->execute();
+        $ToJson = array();
+        while ($row = $rs->fetch(PDO::FETCH_ASSOC)) {
+            $ToJson[] = $row;
+        }
+        echo json_encode($ToJson);
+        exit;
     }
-    echo json_encode($ToJson);
-    exit;
 }
 
 if ($request['method'] == 'POST' && $cmd == 'wallet') {
