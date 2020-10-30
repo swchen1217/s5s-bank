@@ -1,0 +1,43 @@
+doctype
+html(lang="zh-Hant-TW")
+    head
+        //General
+        include ../../sub/general
+        //JavaScript
+        script(src="index.js")
+    body
+        section.hero.is-fullheight.is-primary
+            .hero-body
+                .container.has-text-centered
+                    .columns.is-multiline.is-centered
+                        - id=1;
+                        include ../../sub/board-column-fifth
+                        - id=2;
+                        include ../../sub/board-column-fifth
+                        - id=3;
+                        include ../../sub/board-column-fifth
+                        - id=4;
+                        include ../../sub/board-column-fifth
+                        - id=5;
+                        include ../../sub/board-column-fifth
+                    .columns.is-multiline.is-centered
+                        .column.is-one-third-desktop
+                            .card.has-background-warning
+                                .card-header
+                                    p.card-header-title.is-size-2.has-text-black.is-centered 錢包
+                                .card-content
+                                    .field.has-addons.has-addons-centered
+                                        .control
+                                            .select
+                                                select#idSelectWallet
+                                                    option(value="-1" selected=true disabled=true) 小隊
+                                                    option(value="1") 一小
+                                                    option(value="2") 二小
+                                                    option(value="3") 三小
+                                                    option(value="4") 四小
+                                                    option(value="5") 五小
+                                        .control
+                                            input.input#pointInputWallet(type="number" placeholder="Point")
+                                    .buttons.is-centered
+                                        button.button.is-success#inButtonWallet 存入
+                                        button.button.is-danger#outButtonWallet 領出

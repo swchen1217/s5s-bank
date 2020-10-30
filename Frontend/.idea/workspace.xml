@@ -19,21 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82d586aa-fa61-438f-b308-864d90722d81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/bank/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/main/t1/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/main/t1/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/main/t2/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/main/t2/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/main/t3/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/main/t3/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/main/t4/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/main/t4/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/main/t5/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/main/t5/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/t1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/t2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/t3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/t4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/t5/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="82d586aa-fa61-438f-b308-864d90722d81" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +48,7 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pug/sub" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pug/main/NPC" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -78,11 +64,11 @@
       <recent name="D:\SWC\xampp\htdocs\s5s-bank\Frontend\pug\main" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SWC\xampp\htdocs\s5s-bank\Frontend\pug\main\NPC" />
       <recent name="D:\SWC\xampp\htdocs\s5s-bank\Frontend\pug\sub" />
       <recent name="D:\SWC\xampp\htdocs\s5s-bank\Frontend\pug\main\bank" />
       <recent name="D:\SWC\xampp\htdocs\s5s-bank\Frontend\b5" />
       <recent name="D:\SWC\xampp\htdocs\s5s-bank\Frontend\b4" />
-      <recent name="D:\SWC\xampp\htdocs\s5s-bank\Frontend\b3" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -95,7 +81,7 @@
       <updated>1603934663104</updated>
       <workItem from="1603934665294" duration="8764000" />
       <workItem from="1603982734547" duration="14276000" />
-      <workItem from="1604068300358" duration="7023000" />
+      <workItem from="1604068300358" duration="7348000" />
     </task>
     <servers />
   </component>
