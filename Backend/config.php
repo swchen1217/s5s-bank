@@ -5,16 +5,30 @@ header('Content-type: application/json;charset=utf-8');
 
 //Database
 define("DB_HOST", "localhost");
-define("DB_USER", "s5s");
-define("DB_PASS", "s5s-bank");
-define("DB_DBNAME", "s5s-bank");
+define("DB_USER", "USER");
+define("DB_PASS", "PASSWORD");
+define("DB_DBNAME", "DB");
 $db = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_DBNAME . ';charset=utf8', DB_USER, DB_PASS);
 
 //Game
 $permission = [
-    'GET-point' => [
+    'POST-point' => [
         'token1',
-        'token2'
+    ],
+    'POST-point-1' => [
+        'token1',
+    ],
+    'POST-point-2' => [
+        'token1',
+    ],
+    'POST-point-3' => [
+        'token1',
+    ],
+    'POST-point-4' => [
+        'token1',
+    ],
+    'POST-point-5' => [
+        'token1',
     ],
     'POST-wallet' => [
         'token1',

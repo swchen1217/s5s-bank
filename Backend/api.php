@@ -17,6 +17,15 @@ if ($request['body'] == null || ($request['body']['cmd'] ?? null) == '') {
 $cmd = $request['body']['cmd'] ?? null;
 $token = $request['body']['token'] ?? null;
 $req = $request['method'] . '-' . $request['body']['cmd'];
+$id = $request['body']['id'] ?? null;
+
+$cmdSplit = explode('-', $request['body']['cmd']);
+if (count($cmdSplit) > 1) {
+    if ($cmdSplit[0] == 'point') {
+        $cmd = 'point-';
+        $id = $cmdSplit[1];
+    }
+}
 
 if (!isset($permission[$req])) {
     http_response_code(400);
@@ -28,27 +37,26 @@ if (!isset($permission[$req])) {
     exit;
 }
 
-$data = $request['body']['data'] ?? null;
-$id = $request['body']['id'] ?? null;
 $point = $request['body']['point'] ?? null;
+
 if ($point < 0)
     numberError();
 
-if ($request['method'] == 'GET' && $cmd == 'point') {
-    if ($id != null) {
-        echo json_encode(getPoint($db, $id));
-        exit;
-    } else {
-        $sql = 'SELECT * FROM `points` WHERE 1=1';
-        $rs = $db->prepare($sql);
-        $rs->execute();
-        $ToJson = array();
-        while ($row = $rs->fetch(PDO::FETCH_ASSOC)) {
-            $ToJson[] = $row;
-        }
-        echo json_encode($ToJson);
-        exit;
+if ($request['method'] == 'POST' && $cmd == 'point') {
+    $sql = 'SELECT * FROM `points` WHERE 1=1';
+    $rs = $db->prepare($sql);
+    $rs->execute();
+    $ToJson = array();
+    while ($row = $rs->fetch(PDO::FETCH_ASSOC)) {
+        $ToJson[] = $row;
     }
+    echo json_encode($ToJson);
+    exit;
+}
+
+if ($request['method'] == 'POST' && $cmd == 'point-') {
+    echo json_encode(getPoint($db, $id));
+    exit;
 }
 
 if ($request['method'] == 'POST' && $cmd == 'wallet') {
