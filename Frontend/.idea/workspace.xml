@@ -19,7 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82d586aa-fa61-438f-b308-864d90722d81" name="Default Changelist" comment="" />
+    <list default="true" id="82d586aa-fa61-438f-b308-864d90722d81" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/b1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/t1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b1/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/t1/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/t2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b2/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/t2/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/t3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b3/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/t3/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/t4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b4/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/t4/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/t5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b5/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/t5/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/main/b1/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/main/t1/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/main/b2/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/main/t2/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/main/b3/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/main/t3/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/main/b4/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/main/t4/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/main/b5/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/main/t5/index.pug" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
