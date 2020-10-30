@@ -1,6 +1,6 @@
 var base_url = '../../Backend/api.php';
 
-function request(httpMethod, cmd, dataObj = {}) {
+function request(httpMethod, cmd, dataObj = {}, code = false) {
     var responses = null;
     dataObj.cmd = cmd;
     dataObj.token = token;
@@ -21,8 +21,10 @@ function request(httpMethod, cmd, dataObj = {}) {
         alert('權限不足!!');
     }
     console.log(responses);
-    /*var result = {'code': responses.status, 'data': responses.responseJSON};
-    console.log(result);
-    return result;*/
-    return responses.responseJSON;
+    if (code) {
+        var result = {'code': responses.status, 'data': responses.responseJSON};
+        console.log(result);
+        return result;
+    } else
+        return responses.responseJSON;
 }

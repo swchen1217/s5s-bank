@@ -1,0 +1,14 @@
+.column.is-one-fifth-desktop
+    .card
+        .card-header
+            p.card-header-title.is-size-2.has-text-black.is-centered= boardCardTitle[id - 1]
+        .card-content
+            .columns
+                .column
+                    p.subtitle.has-text-black.is-size-4 錢包
+                        br
+                        span(id="wallet_" + id) 100
+                .column
+                    p.subtitle.has-text-black.is-size-4 銀行
+                        br
+                        span(id="bank_" + id) 100
