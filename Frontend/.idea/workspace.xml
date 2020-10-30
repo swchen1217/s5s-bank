@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="82d586aa-fa61-438f-b308-864d90722d81" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Backend/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/config.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Pug File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jWzVoZRf8uB8zG8XVjn06myS00" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/b5" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SWC\xampp\htdocs\s5s-bank\Frontend\b5" />
+      <recent name="D:\SWC\xampp\htdocs\s5s-bank\Frontend\b4" />
+      <recent name="D:\SWC\xampp\htdocs\s5s-bank\Frontend\b3" />
+      <recent name="D:\SWC\xampp\htdocs\s5s-bank\Frontend\b2" />
+      <recent name="D:\SWC\xampp\htdocs\s5s-bank\Frontend\pug\main\b5" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SWC\xampp\htdocs\s5s-bank\Frontend\pug\main\board" />
+      <recent name="D:\SWC\xampp\htdocs\s5s-bank\Frontend\pug\main" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82d586aa-fa61-438f-b308-864d90722d81" name="Default Changelist" comment="" />
+      <created>1603934663104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603934663104</updated>
+      <workItem from="1603934665294" duration="8764000" />
+      <workItem from="1603982734547" duration="13297000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="568" y="198" key="#File_Watchers" timestamp="1603945038284">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="568" y="198" key="#File_Watchers/0.0.1366.728@0.0.1366.728" timestamp="1603945038284" />
+    <state x="443" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604040734127">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="443" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604040734127" />
+    <state x="462" y="69" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1603945125283">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="69" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728@0.0.1366.728" timestamp="1603945125283" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603991047170">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603991047170" />
+    <state x="345" y="79" width="675" height="649" key="EditFileWatcherDialog" timestamp="1603945144076">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="345" y="79" width="675" height="649" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1603945144076" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1603988045974">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603988045974" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1603982809779">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603982809779" />
+  </component>
+</project>
