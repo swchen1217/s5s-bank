@@ -4,7 +4,7 @@ $(document).ready(function () {
     clean();
     buttonOnClick();
     renderBoard();
-    setInterval(renderBoard, 60000);
+    setInterval(renderBoard, 10000);
 });
 
 function renderBoard() {

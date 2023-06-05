@@ -2,7 +2,7 @@ const token = '1145f263256c923716d2b8eade2f6689';
 
 $(document).ready(function () {
     renderBoard();
-    setInterval(renderBoard, 60000);
+    setInterval(renderBoard, 10000);
 });
 
 function renderBoard() {
